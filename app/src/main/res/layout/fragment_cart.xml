@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E8E4C9"
+    android:background="@color/dirtywhite"
     tools:context=".nav_fragments.CartFragment">
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:text="Your Shopping Cart"
-        android:textColorHint="#00FF00"
+        android:textColorHint="@color/Lime"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Total: P0.00"
-        android:textColorHint="#131212"
+        android:textColorHint="@color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
